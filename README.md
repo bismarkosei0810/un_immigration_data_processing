@@ -1,28 +1,47 @@
-UN Immigration Data Preprocessing
+# UN Immigration Data Preprocessing
 
-Overview
+## Overview
+Data preprocessing pipeline for United Nations immigration datasets. Demonstrates end-to-end data cleaning, standardization, and preparation for analysis using Python.
 
+**Tech Stack:** Python • Pandas • NumPy • Matplotlib
 
-This project involves preprocessing and cleaning United Nations immigration data using Python. The objective is to prepare the dataset for analysis by examining its structure, handling missing values, standardizing column names, and generating summary statistics.
-This work was completed for Assignment 7.1: **Data Preprocessing in AIT620:17 – Methods of Artificial Intelligence and Machine Learning** under the instruction of **Professor Fuat Akal**.
+---
 
-Repository Contents
-data_preprocessing_un_immigration.ipynb
-Jupyter Notebook containing all preprocessing steps, explanations, and executed outputs.
-UN_immigration_data.csv
+## What This Project Does
+- ✅ Loads and inspects large UN immigration datasets
+- ✅ Identifies and handles missing values strategically
+- ✅ Standardizes column naming conventions
+- ✅ Converts data types for downstream analysis
+- ✅ Generates summary statistics & data validation reports
+- ✅ Creates visual checks on numeric distributions
 
-Original UN immigration dataset used for the assignment.
+---
 
-Loaded and explored the UN immigration dataset
-Inspected data structure and data types
-Identified and handled missing values
-Standardized column names for consistency
-Performed data type conversions where appropriate
-Generated summary statistics
-Conducted basic visual checks on numeric data
+## Key Skills Demonstrated
+- Data wrangling with Pandas
+- Missing data imputation strategies
+- Data type conversion & validation
+- Summary statistics & exploratory analysis
+- Data quality assessment
 
-Tools and Libraries
-**Python 3
-pandas
-numpy
-matplotlib**
+---
+
+## Files
+- `immigration.ipynb` — Full preprocessing pipeline with explanations
+- `UN_immigration_data.csv` — Source dataset
+
+---
+
+## How to Use
+```bash
+git clone https://github.com/bismarkosei0810/un_immigration_data_processing.git
+cd un_immigration_data_processing
+jupyter notebook immigration.ipynb
+```
+
+---
+
+## Next Steps
+- Exploratory Data Analysis (EDA)
+- Feature engineering for predictive modeling
+- Time-series analysis on migration trends
